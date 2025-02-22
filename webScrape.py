@@ -4,8 +4,9 @@ from bs4 import BeautifulSoup
 import re
 
 # File paths
-json_file = "sponsorship_urls.json"
-output_file = "scraped_text.txt"
+json_file = "sponsorship_urls_2.json"
+output_file = "scraped_text_2.txt"
+timeout_duration = 10  # Timeout in seconds
 
 def load_all_urls(file_path):
     """Extracts all URLs from the JSON dictionary (values are lists of URLs)."""
@@ -23,7 +24,13 @@ def get_clean_text(url):
     """Fetches and extracts visible, cleaned text from a webpage."""
     try:
         headers = {"User-Agent": "Mozilla/5.0"}  # Prevent bot detection
-        response = requests.get(url, headers=headers)
+
+        # Skip URLs ending in .pdf
+        if url.lower().endswith(".pdf"):
+            print(f"Skipping PDF: {url}")
+            return None
+
+        response = requests.get(url, headers=headers, timeout=timeout_duration)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, "html.parser")
@@ -53,6 +60,10 @@ urls = load_all_urls(json_file)
 # Scrape and save text
 with open(output_file, "w", encoding="utf-8") as file:
     for url in urls:
+        if url.lower().endswith(".pdf"):
+            print(f"Skipping PDF: {url}")
+            continue  # Skip this URL
+
         print(f"Scraping: {url}")
         text = get_clean_text(url)
 
