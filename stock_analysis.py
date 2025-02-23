@@ -14,10 +14,10 @@ df = pd.DataFrame(data)
 df['date'] = pd.to_datetime(df['date'])
 
 predictions = [
-    ("SHEL", "Formula 1", 0.03),
-    ("AAPL", "Soccer", 0.02),
-    ("RACE", "Formula 1", -0.01),
-    ("NFLX", "Football", -0.03)
+    ("SHEL", "Formula 1", 0.0003),
+    ("AAPL", "Soccer", 0.0002),
+    ("RACE", "Formula 1", -0.0001),
+    ("NFLX", "Football", -0.0003)
 ]
 
 def create_prediction_box(ticker, sport, percent_change):
@@ -97,8 +97,8 @@ elif st.session_state.page == "Stock Analysis":
 
             ax.scatter(closest_date, stock_data['Close'].iloc[closest_date_idx], color=color, s=50, edgecolor="black")
 
-    green_patch = mpatches.Patch(color='green', label='Won Game (Outcome > threshold)')
-    red_patch = mpatches.Patch(color='red', label='Lost Game (Outcome <= threshold)')
+    green_patch = mpatches.Patch(color='green', label='Won Game')
+    red_patch = mpatches.Patch(color='red', label='Lost Game')
     ax.legend(handles=[green_patch, red_patch, plt.Line2D([0], [0], color="blue", lw=2, label="Stock Price")])
 
     ax.set_xlabel("Date")
