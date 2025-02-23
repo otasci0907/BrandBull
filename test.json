@@ -1,0 +1,721 @@
+[
+    {
+        "company": "HPQ",
+        "event": "Formula 1",
+        "team": "Scuderia Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "ADS",
+        "event": "2024-2025 UEFA Champions League",
+        "team": "Real Madrid",
+        "athlete": "",
+        "sport": "Soccer",
+        "year": "2024",
+        "start_date": "2024-10-14",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "",
+        "team": "",
+        "athlete": "Michael Jordan",
+        "sport": "Basketball",
+        "year": "1984",
+        "start_date": "1984-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "MT",
+        "event": "",
+        "team": "Baltimore Ravens",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2018",
+        "start_date": "2018-01-01",
+        "end_date": "2027-12-31"
+    },
+    {
+        "company": "PUM.DE",
+        "event": "",
+        "team": "",
+        "athlete": "Neymar Jr.",
+        "sport": "Soccer",
+        "year": "2023",
+        "start_date": "2023-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "",
+        "team": "",
+        "athlete": "Rory McIlroy",
+        "sport": "Golf",
+        "year": "2013",
+        "start_date": "2013-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "MSI",
+        "event": "2024 Major League Baseball Season",
+        "team": "Chicago Cubs",
+        "athlete": "",
+        "sport": "Baseball",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "ENR",
+        "event": "NHL Global Series 2024",
+        "team": "NHL",
+        "athlete": "",
+        "sport": "Hockey",
+        "year": "2024",
+        "start_date": "2024-10-31",
+        "end_date": ""
+    },
+    {
+        "company": "TD",
+        "event": "NHL 2023-2024 Season",
+        "team": "Boston Bruins",
+        "athlete": "",
+        "sport": "Hockey",
+        "year": "2023",
+        "start_date": "2023-09-19",
+        "end_date": ""
+    },
+    {
+        "company": "ORCL",
+        "event": "F1 Grand Prix of United States",
+        "team": "Oracle Red Bull Racing",
+        "athlete": "Max Verstappen",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2023-10-21",
+        "end_date": ""
+    },
+    {
+        "company": "ANF",
+        "event": "2024 Miami Grand Prix",
+        "team": "McLaren",
+        "athlete": "Lando Norris",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "HPQ",
+        "event": "Formula 1",
+        "team": "Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "NK",
+        "event": "World Cup",
+        "team": "German national soccer team",
+        "athlete": "",
+        "sport": "Soccer",
+        "year": "2027",
+        "start_date": "2027-01-01",
+        "end_date": "2034-12-31"
+    },
+    {
+        "company": "GASI",
+        "event": "Barcolana",
+        "team": "Austrian football team",
+        "athlete": "Federica Brignone",
+        "sport": "Sailing",
+        "year": "2021",
+        "start_date": "2021-10-10",
+        "end_date": ""
+    },
+    {
+        "company": "HSBC",
+        "event": "",
+        "team": "Tottenham Hotspur Football Club",
+        "athlete": "Emma Raducanu",
+        "sport": "Football",
+        "year": "2008",
+        "start_date": "2008-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "T",
+        "event": "",
+        "team": "Portland Winterhawks",
+        "athlete": "",
+        "sport": "Hockey",
+        "year": "2019",
+        "start_date": "2019-10-23",
+        "end_date": ""
+    },
+    {
+        "company": "TMUS",
+        "event": "2024 TMobile Home Run Derby",
+        "team": "Los Angeles Dodgers",
+        "athlete": "Teoscar Hernndez",
+        "sport": "Baseball",
+        "year": "2024",
+        "start_date": "2024-07-15",
+        "end_date": ""
+    },
+    {
+        "company": "CARL-B.CO",
+        "event": "UEFA Euro Championship",
+        "team": "Liverpool FC",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2016",
+        "start_date": "2016-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "CVX",
+        "event": "2024 Major League Sports Sponsorships",
+        "team": "Los Angeles Football Club",
+        "athlete": "",
+        "sport": "Soccer",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "CV",
+        "event": "Super Bowl LIX",
+        "team": "New Orleans Saints",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2025",
+        "start_date": "2023-08-01",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "PGR 2024",
+        "team": "Paris Saint-Germain",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "PEP",
+        "event": "NFL",
+        "team": "LA Rams",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2022",
+        "start_date": "2022-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "Super Bowl LVIII",
+        "team": "Kansas City Chiefs",
+        "athlete": "Travis Kelce",
+        "sport": "Football",
+        "year": "2024",
+        "start_date": "2024-01-30",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "NFL 2023 Season",
+        "team": "Dallas Cowboys",
+        "athlete": "Travis Kelce",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2023-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "CZR",
+        "event": "Super Bowl LVIII",
+        "team": "New Orleans Saints",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2021",
+        "start_date": "2021-07-22",
+        "end_date": ""
+    },
+    {
+        "company": "T",
+        "event": "",
+        "team": "San Antonio Spurs",
+        "athlete": "",
+        "sport": "Basketball",
+        "year": "2021",
+        "start_date": "2021-07-02",
+        "end_date": "2022-10-01"
+    },
+    {
+        "company": "BALL",
+        "event": "",
+        "team": "Denver Nuggets",
+        "athlete": "",
+        "sport": "Basketball",
+        "year": "2020",
+        "start_date": "2020-10-22",
+        "end_date": ""
+    },
+    {
+        "company": "MG",
+        "event": "",
+        "team": "New York Yankees",
+        "athlete": "",
+        "sport": "Baseball",
+        "year": "2024",
+        "start_date": "2024-12-16",
+        "end_date": ""
+    },
+    {
+        "company": "MGM",
+        "event": "New York Yankees Sponsorship",
+        "team": "New York Yankees",
+        "athlete": "",
+        "sport": "Baseball",
+        "year": "2024",
+        "start_date": "2024-12-16",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "",
+        "team": "FC Barcelona",
+        "athlete": "",
+        "sport": "Football",
+        "year": "1998",
+        "start_date": "1998-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "PUM",
+        "event": "",
+        "team": "FC Barcelona",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2024",
+        "start_date": "2024-01-10",
+        "end_date": ""
+    },
+    {
+        "company": "EA",
+        "event": "Super Bowl 2023",
+        "team": "Kansas City Chiefs",
+        "athlete": "Patrick Mahomes",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2022-08-01",
+        "end_date": ""
+    },
+    {
+        "company": "PEP",
+        "event": "Super Bowl LVIII",
+        "team": "Kansas City Chiefs",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2023-02-12",
+        "end_date": ""
+    },
+    {
+        "company": "AAPL",
+        "event": "Super Bowl 2023",
+        "team": "Kansas City Chiefs",
+        "athlete": "Patrick Mahomes",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2023-06-30",
+        "end_date": ""
+    },
+    {
+        "company": "AMZN",
+        "event": "Super Bowl 53",
+        "team": "New England Patriots",
+        "athlete": "Kyle Van Noy",
+        "sport": "Football",
+        "year": "2019",
+        "start_date": "2019-02-03",
+        "end_date": ""
+    },
+    {
+        "company": "QCOM",
+        "event": "",
+        "team": "Manchester United",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2024",
+        "start_date": "2024-08-01",
+        "end_date": ""
+    },
+    {
+        "company": "NK",
+        "event": "FC Barcelona Sponsorship Deals 2023-24 Season",
+        "athlete": "",
+        "sport": "Soccer",
+        "year": "2023",
+        "start_date": "2023-07-01",
+        "end_date": ""
+    },
+    {
+        "company": "MC.P",
+        "event": "Monaco Grand Prix",
+        "team": "Oracle Red Bull Racing",
+        "athlete": "Max Verstappen",
+        "sport": "Formula 1",
+        "year": "2011",
+        "start_date": "2011-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "PEP",
+        "event": "Super Bowl LVI",
+        "team": "Los Angeles Rams",
+        "athlete": "Cooper Kupp",
+        "sport": "Football",
+        "year": "2022",
+        "start_date": "2022-02-13",
+        "end_date": ""
+    },
+    {
+        "company": "HPQ",
+        "event": "UEFA Champions League Final",
+        "team": "Real Madrid CF",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2011",
+        "start_date": "2011-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "LU",
+        "event": "Portland Timbers Major League Soccer Sponsorship",
+        "team": "Portland Timbers",
+        "athlete": "",
+        "sport": "Soccer",
+        "year": "2011",
+        "start_date": "2011-05-19",
+        "end_date": ""
+    },
+    {
+        "company": "NKE",
+        "event": "NFL 2023 Season",
+        "team": "Dallas Cowboys",
+        "athlete": "Travis Kelce",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2023-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "PETR3.SA",
+        "event": "",
+        "team": "MercedesAMG PETRONAS F1 Team",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "V",
+        "event": "Formula 1",
+        "team": "Red Bull Racing",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2022",
+        "start_date": "2022-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "PUMSY",
+        "event": "2024 Formula 1 Season",
+        "team": "Scuderia Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2005",
+        "start_date": "2005-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "SIEGY",
+        "event": "Formula 1",
+        "team": "Red Bull Racing",
+        "athlete": "Max Verstappen",
+        "sport": "Formula 1",
+        "year": "2020",
+        "start_date": "2020-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "PETR3.SA",
+        "event": "Formula 1 World Championship",
+        "team": "MercedesAMG PETRONAS Formula 1 Team",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2010",
+        "start_date": "2010-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "AMD",
+        "event": "Formula 1",
+        "team": "Mercedes-AMG Petronas Formula 1 Team",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2020",
+        "start_date": "2020-02-14",
+        "end_date": ""
+    },
+    {
+        "company": "GENESYS",
+        "event": "",
+        "team": "Scuderia Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2023-01-12",
+        "end_date": ""
+    },
+    {
+        "company": "PLTR",
+        "event": "2024 Formula 1 Las Vegas Grand Prix",
+        "team": "Scuderia Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2022-02-10",
+        "end_date": ""
+    },
+    {
+        "company": "LUXTY",
+        "event": "2025 Formula 1 World Championship",
+        "team": "Scuderia Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2016",
+        "start_date": "2016-07-07",
+        "end_date": ""
+    },
+    {
+        "company": "HPQ",
+        "event": "Formula 1 Miami Grand Prix 2024",
+        "team": "Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-04-01",
+        "end_date": ""
+    },
+    {
+        "company": "IBM",
+        "event": "Formula 1",
+        "team": "Ferrari",
+        "athlete": "Lewis Hamilton",
+        "sport": "Formula 1",
+        "year": "2025",
+        "start_date": "2025-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "SQ",
+        "event": "",
+        "team": "Red Bull",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "AMZN",
+        "event": "2022 FIA Formula 1 World Championship",
+        "team": "Scuderia Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2021",
+        "start_date": "2021-06-01",
+        "end_date": ""
+    },
+    {
+        "company": "UBS",
+        "event": "Formula 1 Singapore Grand Prix 2023",
+        "team": "Mercedes-AMG Petronas",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2023-09-15",
+        "end_date": ""
+    },
+    {
+        "company": "PETR3.S",
+        "event": "2020 Formula 1 Season",
+        "team": "Mercedes AMG F1",
+        "athlete": "Lewis Hamilton",
+        "sport": "Formula 1",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "MBGYY",
+        "event": "2018 FIA Formula 1 World Championship",
+        "team": "Mercedes",
+        "athlete": "Lewis Hamilton",
+        "sport": "Formula 1",
+        "year": "2018",
+        "start_date": "2018-03-25",
+        "end_date": ""
+    },
+    {
+        "company": "MBGYY",
+        "event": "",
+        "team": "Aston Martin",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2022",
+        "start_date": "2022-06-30",
+        "end_date": ""
+    },
+    {
+        "company": "MBGYY",
+        "event": "Monaco Grand Prix 2014",
+        "team": "Mercedes",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2014",
+        "start_date": "2014-05-27",
+        "end_date": ""
+    },
+    {
+        "company": "SKF",
+        "event": "Formula 1 World Championship 2016",
+        "team": "Scuderia Ferrari",
+        "athlete": "Sebastian Vettel",
+        "sport": "Formula 1",
+        "year": "1947",
+        "start_date": "1947-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "SHEL",
+        "event": "Formula 1 World Championship",
+        "team": "Scuderia Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "1929",
+        "start_date": "1929-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "DXC",
+        "event": "2025 Formula 1 Season",
+        "team": "Scuderia Ferrari",
+        "athlete": "Lewis Hamilton",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2023-05-03",
+        "end_date": ""
+    },
+    {
+        "company": "ORCL",
+        "event": "Formula 1",
+        "team": "Oracle Red Bull Racing",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2016",
+        "start_date": "2016-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "HCLTECH",
+        "event": "Formula 1",
+        "team": "Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2023",
+        "start_date": "2023-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "CELH",
+        "event": "Formula 1 2024 Season",
+        "team": "Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2024",
+        "start_date": "2024-03-01",
+        "end_date": ""
+    },
+    {
+        "company": "INTC",
+        "event": "Grand Prix de Monaco 2021",
+        "team": "Red Bull Racing",
+        "athlete": "Max Verstappen",
+        "sport": "Formula 1",
+        "year": "2021",
+        "start_date": "2021-05-23",
+        "end_date": ""
+    },
+    {
+        "company": "XOM",
+        "event": "Formula 1 Emirates Grand Prix de France 2021",
+        "team": "Red Bull Racing",
+        "athlete": "Max Verstappen",
+        "sport": "Formula 1",
+        "year": "2021",
+        "start_date": "2021-06-20",
+        "end_date": ""
+    },
+    {
+        "company": "RACE",
+        "event": "2024 F1 Las Vegas Grand Prix",
+        "team": "Ferrari",
+        "athlete": "Charles Leclerc",
+        "sport": "Formula 1",
+        "year": "2020",
+        "start_date": "2020-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "MBGYY",
+        "event": "Formula 1 Season 2021",
+        "team": "Mercedes-AMG F1",
+        "athlete": "Lewis Hamilton",
+        "sport": "Formula 1",
+        "year": "2013",
+        "start_date": "2013-01-01",
+        "end_date": ""
+    },
+    {
+        "company": "GTX",
+        "event": "Formula 1 World Championship",
+        "team": "Ferrari",
+        "athlete": "",
+        "sport": "Formula 1",
+        "year": "2020",
+        "start_date": "2020-02-01",
+        "end_date": ""
+    },
+    {
+        "company": "NFLX",
+        "event": "NFL 2023-2024 Season",
+        "team": "Los Angeles Rams",
+        "athlete": "",
+        "sport": "Football",
+        "year": "2023",
+        "start_date": "2023-09-01",
+        "end_date": ""
+    }
+]
