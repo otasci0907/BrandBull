@@ -14,10 +14,10 @@ df = pd.DataFrame(data)
 df['date'] = pd.to_datetime(df['date'])
 
 predictions = [
-    ("SHEL", "Formula 1", 0.0003),
-    ("AAPL", "Soccer", 0.0002),
-    ("RACE", "Formula 1", -0.0001),
-    ("NFLX", "Football", -0.0003)
+    ("SHEL", "Formula 1", 0.03),
+    ("AAPL", "Soccer", 0.02),
+    ("RACE", "Formula 1", -0.01),
+    ("NFLX", "Football", -0.03)
 ]
 
 def create_prediction_box(ticker, sport, percent_change):
@@ -51,13 +51,14 @@ if st.session_state.page == "Main Page":
         st.markdown(create_prediction_box(*predictions[3]), unsafe_allow_html=True)
 
     st.markdown("<br><br>", unsafe_allow_html=True)
+    if st.button("View More"):
         st.session_state.page = "Stock Analysis"
         st.experimental_rerun()
 
 elif st.session_state.page == "Stock Analysis":
     st.sidebar.header("Select Stock Ticker")
     tickers = sorted(df['ticker'].unique())
-    selected_ticker = st.sidebar.radio("", tickers)
+    selected_ticker = st.sidebar.radio("Choose a stock ticker:", tickers)
 
     filtered_df = df[df['ticker'] == selected_ticker]
 
@@ -66,6 +67,7 @@ elif st.session_state.page == "Stock Analysis":
 
     start_date_slider = earliest_date - pd.DateOffset(years=1)
     start_date_slider = start_date_slider.date()
+
     latest_date_slider = latest_date.date()
 
     start_date_slider, end_date_slider = st.slider(
@@ -86,9 +88,7 @@ elif st.session_state.page == "Stock Analysis":
 
     for i, row in filtered_df.iterrows():
         sport = row["sport"].strip().lower()
-
         threshold = 0.75 if sport == "formula 1" else 0.5
-
         color = "green" if float(row["outcome"]) > threshold else "red"
 
         if start_date_slider <= row['date'] <= end_date_slider:
@@ -97,8 +97,8 @@ elif st.session_state.page == "Stock Analysis":
 
             ax.scatter(closest_date, stock_data['Close'].iloc[closest_date_idx], color=color, s=50, edgecolor="black")
 
-    green_patch = mpatches.Patch(color='green', label='Won Game')
-    red_patch = mpatches.Patch(color='red', label='Lost Game')
+    green_patch = mpatches.Patch(color='green', label='Won Game (Outcome > threshold)')
+    red_patch = mpatches.Patch(color='red', label='Lost Game (Outcome <= threshold)')
     ax.legend(handles=[green_patch, red_patch, plt.Line2D([0], [0], color="blue", lw=2, label="Stock Price")])
 
     ax.set_xlabel("Date")
